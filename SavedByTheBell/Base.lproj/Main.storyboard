@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="DS-DIGI.TTF">
+            <string>DS-Digital</string>
+        </mutableArray>
+        <mutableArray key="OratorStd.otf">
+            <string>OratorStd</string>
+            <string>OratorStd</string>
+            <string>OratorStd</string>
+            <string>OratorStd</string>
+            <string>OratorStd</string>
+            <string>OratorStd</string>
+            <string>OratorStd</string>
+        </mutableArray>
+        <mutableArray key="Squared Display.ttf">
+            <string>SquaredDisplay</string>
+            <string>SquaredDisplay</string>
+            <string>SquaredDisplay</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SavedByTheBell" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightBlueBackground" translatesAutoresizingMaskIntoConstraints="NO" id="bXI-kZ-1Cx">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="769"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whiteVerticalRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="ATb-Dh-Ex3">
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="769"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueVerticalSelection2" translatesAutoresizingMaskIntoConstraints="NO" id="AyO-xM-3tI">
+                                <rect key="frame" x="375" y="-184" width="168" height="765"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="su4-D0-FZd" userLabel="periodSelection1">
+                                <rect key="frame" x="0.0" y="168" width="324" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="iVb-Xd-HML" userLabel="periodSelection2">
+                                <rect key="frame" x="0.0" y="254" width="324" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="QC1-dO-PwG" userLabel="periodSelection3">
+                                <rect key="frame" x="0.0" y="342" width="324" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="WzD-34-aPS" userLabel="periodSelection4">
+                                <rect key="frame" x="0.0" y="429" width="324" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="e7T-7F-aqZ" userLabel="periodSelection5">
+                                <rect key="frame" x="0.0" y="516" width="324" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="cbw-Q9-t7W" userLabel="periodSelection6">
+                                <rect key="frame" x="0.0" y="602" width="324" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periodSelectionHorizontalEdge" translatesAutoresizingMaskIntoConstraints="NO" id="bWf-Ov-fvN" userLabel="periodSelection7">
+                                <rect key="frame" x="0.0" y="690" width="324" height="74"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCHEDULES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-yk-LdU">
+                                <rect key="frame" x="40" y="75" width="201" height="43"/>
+                                <fontDescription key="fontDescription" name="SquaredDisplay" family="Squared Display" pointSize="46"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="Ahs-sz-VCP" userLabel="orangeBar1">
+                                <rect key="frame" x="375" y="181" width="633" height="53"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8d-kc-ISm">
+                                <rect key="frame" x="402" y="191" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oD-Zb-Cwp">
+                                <rect key="frame" x="786" y="191" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="HK3-jx-qDp" userLabel="orangeBar2">
+                                <rect key="frame" x="375" y="255" width="633" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="Fa8-eN-byu" userLabel="orangeBar3">
+                                <rect key="frame" x="375" y="328" width="633" height="53"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="S8k-QG-coB" userLabel="orangeBar4">
+                                <rect key="frame" x="375" y="402" width="633" height="53"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArY-dv-UBW">
+                                <rect key="frame" x="402" y="413" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="cch-a9-WcY" userLabel="orangeBar5">
+                                <rect key="frame" x="375" y="476" width="633" height="53"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rK-fW-i0r">
+                                <rect key="frame" x="402" y="487" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="YmS-pD-aG7" userLabel="orangeBar6">
+                                <rect key="frame" x="375" y="550" width="633" height="53"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKm-5N-YMe">
+                                <rect key="frame" x="402" y="561" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="8aF-UI-oXj" userLabel="orangeBar7">
+                                <rect key="frame" x="375" y="623" width="633" height="53"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6d-y8-lhP">
+                                <rect key="frame" x="402" y="634" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orangeBar" translatesAutoresizingMaskIntoConstraints="NO" id="DYg-K0-VWI" userLabel="orangeBar8">
+                                <rect key="frame" x="375" y="695" width="633" height="53"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6or-hc-Hcj">
+                                <rect key="frame" x="402" y="266" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upq-tZ-MYa">
+                                <rect key="frame" x="402" y="339" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Period 8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7k-Ki-dXA">
+                                <rect key="frame" x="402" y="706" width="376" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gib-c0-01K">
+                                <rect key="frame" x="0.0" y="690" width="270" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" WORKSHOP">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ODr-2V-KaX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEH-Rf-IIt">
+                                <rect key="frame" x="0.0" y="603" width="270" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" ASSEMBLY">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XIn-dH-P8q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Nn-CZ-tBp">
+                                <rect key="frame" x="0.0" y="516" width="276" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" PEP">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="03b-85-cil"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi5-XC-xOW">
+                                <rect key="frame" x="0.0" y="342" width="270" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" ORANGE THURSDAY">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ygL-Ax-3I8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67t-Qg-KBQ">
+                                <rect key="frame" x="0.0" y="429" width="276" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" EARLY DISSMISSAL">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugT-DO-JF3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahl-Ap-YUk">
+                                <rect key="frame" x="786" y="266" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhw-qc-CBf">
+                                <rect key="frame" x="786" y="339" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEQ-V3-ZAU">
+                                <rect key="frame" x="786" y="413" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4t-iE-dNb">
+                                <rect key="frame" x="786" y="487" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ct5-6u-ue3">
+                                <rect key="frame" x="786" y="561" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-aA-1l4">
+                                <rect key="frame" x="786" y="634" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00  -  00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5K-CY-e6c">
+                                <rect key="frame" x="786" y="706" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whiteTopOverlay" translatesAutoresizingMaskIntoConstraints="NO" id="VyE-9D-lLu">
+                                <rect key="frame" x="358" y="0.0" width="666" height="164"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MINUTES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1E-dp-CEd">
+                                <rect key="frame" x="861" y="75" width="293" height="43"/>
+                                <fontDescription key="fontDescription" name="SquaredDisplay" family="Squared Display" pointSize="44"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CLASS BEGINS IN" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Z8-yg-9uH">
+                                <rect key="frame" x="358" y="75" width="325" height="44"/>
+                                <fontDescription key="fontDescription" name="SquaredDisplay" family="Squared Display" pointSize="44"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecp-Te-2dJ">
+                                <rect key="frame" x="0.0" y="167" width="270" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" REGULAR">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q0l-JX-Nar"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjL-ut-Zr4">
+                                <rect key="frame" x="0.0" y="255" width="270" height="79"/>
+                                <fontDescription key="fontDescription" name="OratorStd" family="Orator Std" pointSize="27"/>
+                                <state key="normal" title=" BLUE THURSDAY">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dVs-Eu-Jig"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byd-RX-jKo">
+                                <rect key="frame" x="691" y="53" width="155" height="88"/>
+                                <fontDescription key="fontDescription" name="DS-Digital" family="DS-Digital" pointSize="110"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyA-9U-9rd">
+                                <rect key="frame" x="255" y="61" width="82" height="72"/>
+                                <state key="normal" image="blueGear"/>
+                                <connections>
+                                    <segue destination="qau-MZ-ohc" kind="presentation" id="cyy-O0-Hhe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="classInLabel" destination="8Z8-yg-9uH" id="8iS-ZV-zhg"/>
+                        <outlet property="countdownLabel" destination="Byd-RX-jKo" id="joc-ET-hdk"/>
+                        <outlet property="minutesLabel" destination="b1E-dp-CEd" id="oIz-0l-JVQ"/>
+                        <outlet property="periodSelection1" destination="Ahs-sz-VCP" id="nns-YN-OG2"/>
+                        <outlet property="periodSelection2" destination="HK3-jx-qDp" id="VZk-Dy-35o"/>
+                        <outlet property="periodSelection3" destination="Fa8-eN-byu" id="u8V-pK-vgc"/>
+                        <outlet property="periodSelection4" destination="S8k-QG-coB" id="okP-ZU-HFd"/>
+                        <outlet property="periodSelection5" destination="cch-a9-WcY" id="fcX-Bt-x6a"/>
+                        <outlet property="periodSelection6" destination="YmS-pD-aG7" id="2Bt-EB-RvW"/>
+                        <outlet property="periodSelection7" destination="8aF-UI-oXj" id="sU4-dl-jJH"/>
+                        <outlet property="periodSelection8" destination="DYg-K0-VWI" id="arZ-Rk-0eF"/>
+                        <outlet property="periodStartEndLabel1" destination="1oD-Zb-Cwp" id="XQf-sK-XQF"/>
+                        <outlet property="periodStartEndLabel2" destination="Ahl-Ap-YUk" id="AUg-RS-lja"/>
+                        <outlet property="periodStartEndLabel3" destination="nhw-qc-CBf" id="zlx-ie-gq3"/>
+                        <outlet property="periodStartEndLabel4" destination="yEQ-V3-ZAU" id="sut-DE-PMd"/>
+                        <outlet property="periodStartEndLabel5" destination="R4t-iE-dNb" id="Slq-VP-AyX"/>
+                        <outlet property="periodStartEndLabel6" destination="Ct5-6u-ue3" id="np3-JZ-V3E"/>
+                        <outlet property="periodStartEndLabel7" destination="Tds-aA-1l4" id="Lio-yc-KhT"/>
+                        <outlet property="periodStartEndLabel8" destination="E5K-CY-e6c" id="5ck-fO-nst"/>
+                        <outlet property="periodnumberLabel1" destination="A8d-kc-ISm" id="eA8-M4-syR"/>
+                        <outlet property="periodnumberLabel2" destination="6or-hc-Hcj" id="esG-mh-KG5"/>
+                        <outlet property="periodnumberLabel3" destination="Upq-tZ-MYa" id="S9k-OV-hB2"/>
+                        <outlet property="periodnumberLabel4" destination="ArY-dv-UBW" id="mzr-gU-EAh"/>
+                        <outlet property="periodnumberLabel5" destination="1rK-fW-i0r" id="obA-8J-c8k"/>
+                        <outlet property="periodnumberLabel6" destination="cKm-5N-YMe" id="f8C-pr-7mA"/>
+                        <outlet property="periodnumberLabel7" destination="V6d-y8-lhP" id="pCp-4b-ui1"/>
+                        <outlet property="periodnumberLabel8" destination="h7k-Ki-dXA" id="bzI-PS-YTS"/>
+                        <outlet property="scheduleSelection1" destination="su4-D0-FZd" id="03U-Jt-CER"/>
+                        <outlet property="scheduleSelection2" destination="iVb-Xd-HML" id="8eU-ic-MdY"/>
+                        <outlet property="scheduleSelection3" destination="QC1-dO-PwG" id="glo-Hu-eXR"/>
+                        <outlet property="scheduleSelection4" destination="WzD-34-aPS" id="xSx-AI-Wy4"/>
+                        <outlet property="scheduleSelection5" destination="e7T-7F-aqZ" id="NNH-vb-ZI0"/>
+                        <outlet property="scheduleSelection6" destination="cbw-Q9-t7W" id="vf7-cv-W6v"/>
+                        <outlet property="scheduleSelection7" destination="bWf-Ov-fvN" id="kyo-48-bib"/>
+                        <outlet property="schedulesLabel" destination="Cxa-yk-LdU" id="Y9B-TD-jNS"/>
+                        <outlet property="verticalIndicator" destination="AyO-xM-3tI" id="Uke-gt-4Rt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="315"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BUw-Jd-uHW">
+            <objects>
+                <viewController id="qau-MZ-ohc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o7n-5Y-1aT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bvu-8O-h1D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AF1-we-Vkf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceV-Pe-ypi">
+                                <rect key="frame" x="298" y="248" width="33" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3op-HJ-rca" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1598" y="251"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueGear" width="140" height="129"/>
+        <image name="blueVerticalSelection2" width="275" height="1104"/>
+        <image name="lightBlueBackground" width="500" height="500"/>
+        <image name="orangeBar" width="1104" height="88"/>
+        <image name="periodSelectionHorizontalEdge" width="947" height="177"/>
+        <image name="whiteTopOverlay" width="1104" height="279"/>
+        <image name="whiteVerticalRectangle" width="792" height="1775"/>
+    </resources>
+</document>
